@@ -1,0 +1,6 @@
+framework module Pods_AES256TestTests {
+  umbrella header "Pods-AES256TestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

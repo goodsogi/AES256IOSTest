@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F38FE4D240CF97E00CADE34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38FE4C240CF97E00CADE34 /* AppDelegate.swift */; };
+		1F38FE4F240CF97E00CADE34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38FE4E240CF97E00CADE34 /* SceneDelegate.swift */; };
+		1F38FE51240CF97E00CADE34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38FE50240CF97E00CADE34 /* ViewController.swift */; };
+		1F38FE54240CF97E00CADE34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F38FE52240CF97E00CADE34 /* Main.storyboard */; };
+		1F38FE56240CF98000CADE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F38FE55240CF98000CADE34 /* Assets.xcassets */; };
+		1F38FE59240CF98000CADE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F38FE57240CF98000CADE34 /* LaunchScreen.storyboard */; };
+		1F38FE64240CF98100CADE34 /* AES256TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38FE63240CF98100CADE34 /* AES256TestTests.swift */; };
+		1F38FE6F240CF98100CADE34 /* AES256TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38FE6E240CF98100CADE34 /* AES256TestUITests.swift */; };
+		1F38FE7D240CF9C400CADE34 /* AES256Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38FE7C240CF9C400CADE34 /* AES256Manager.swift */; };
+		412507CD4B94144830B1C7FF /* Pods_AES256Test_AES256TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87694B723D518C07885498A /* Pods_AES256Test_AES256TestUITests.framework */; };
+		568C455E5CC6158FEE00585D /* Pods_AES256Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD49256049B3C37CF252D01 /* Pods_AES256Test.framework */; };
+		CB01A87389F2EB772FE68C22 /* Pods_AES256TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D514438C09BA9D332C45FCE /* Pods_AES256TestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F38FE60240CF98100CADE34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F38FE41240CF97D00CADE34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F38FE48240CF97E00CADE34;
+			remoteInfo = AES256Test;
+		};
+		1F38FE6B240CF98100CADE34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F38FE41240CF97D00CADE34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F38FE48240CF97E00CADE34;
+			remoteInfo = AES256Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD49256049B3C37CF252D01 /* Pods_AES256Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AES256Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F38FE49240CF97E00CADE34 /* AES256Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AES256Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F38FE4C240CF97E00CADE34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F38FE4E240CF97E00CADE34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F38FE50240CF97E00CADE34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F38FE53240CF97E00CADE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F38FE55240CF98000CADE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F38FE58240CF98000CADE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F38FE5A240CF98000CADE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F38FE5F240CF98100CADE34 /* AES256TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AES256TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F38FE63240CF98100CADE34 /* AES256TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256TestTests.swift; sourceTree = "<group>"; };
+		1F38FE65240CF98100CADE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F38FE6A240CF98100CADE34 /* AES256TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AES256TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F38FE6E240CF98100CADE34 /* AES256TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256TestUITests.swift; sourceTree = "<group>"; };
+		1F38FE70240CF98100CADE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F38FE7C240CF9C400CADE34 /* AES256Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256Manager.swift; sourceTree = "<group>"; };
+		261883D6042A21F5A141ECA0 /* Pods-AES256TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AES256TestTests.debug.xcconfig"; path = "Target Support Files/Pods-AES256TestTests/Pods-AES256TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AF412810F6419AF73F07894 /* Pods-AES256Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AES256Test.debug.xcconfig"; path = "Target Support Files/Pods-AES256Test/Pods-AES256Test.debug.xcconfig"; sourceTree = "<group>"; };
+		40B6A2BB21F8BE4F3DE971EB /* Pods-AES256TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AES256TestTests.release.xcconfig"; path = "Target Support Files/Pods-AES256TestTests/Pods-AES256TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D514438C09BA9D332C45FCE /* Pods_AES256TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AES256TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87694B723D518C07885498A /* Pods_AES256Test_AES256TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AES256Test_AES256TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EDF4B419BDDEFE1F0395A8 /* Pods-AES256Test-AES256TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AES256Test-AES256TestUITests.release.xcconfig"; path = "Target Support Files/Pods-AES256Test-AES256TestUITests/Pods-AES256Test-AES256TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC30862FFDF4AE08EB4844C8 /* Pods-AES256Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AES256Test.release.xcconfig"; path = "Target Support Files/Pods-AES256Test/Pods-AES256Test.release.xcconfig"; sourceTree = "<group>"; };
+		E548EBC6E8544313770B8380 /* Pods-AES256Test-AES256TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AES256Test-AES256TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-AES256Test-AES256TestUITests/Pods-AES256Test-AES256TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F38FE46240CF97E00CADE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568C455E5CC6158FEE00585D /* Pods_AES256Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F38FE5C240CF98100CADE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01A87389F2EB772FE68C22 /* Pods_AES256TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F38FE67240CF98100CADE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412507CD4B94144830B1C7FF /* Pods_AES256Test_AES256TestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F38FE40240CF97D00CADE34 = {
+			isa = PBXGroup;
+			children = (
+				1F38FE4B240CF97E00CADE34 /* AES256Test */,
+				1F38FE62240CF98100CADE34 /* AES256TestTests */,
+				1F38FE6D240CF98100CADE34 /* AES256TestUITests */,
+				1F38FE4A240CF97E00CADE34 /* Products */,
+				6D052CF29E2B3EE4B5CD0434 /* Pods */,
+				F254165BC67E9E7EFCB38F71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F38FE4A240CF97E00CADE34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F38FE49240CF97E00CADE34 /* AES256Test.app */,
+				1F38FE5F240CF98100CADE34 /* AES256TestTests.xctest */,
+				1F38FE6A240CF98100CADE34 /* AES256TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F38FE4B240CF97E00CADE34 /* AES256Test */ = {
+			isa = PBXGroup;
+			children = (
+				1F38FE4C240CF97E00CADE34 /* AppDelegate.swift */,
+				1F38FE4E240CF97E00CADE34 /* SceneDelegate.swift */,
+				1F38FE50240CF97E00CADE34 /* ViewController.swift */,
+				1F38FE52240CF97E00CADE34 /* Main.storyboard */,
+				1F38FE55240CF98000CADE34 /* Assets.xcassets */,
+				1F38FE57240CF98000CADE34 /* LaunchScreen.storyboard */,
+				1F38FE5A240CF98000CADE34 /* Info.plist */,
+				1F38FE7C240CF9C400CADE34 /* AES256Manager.swift */,
+			);
+			path = AES256Test;
+			sourceTree = "<group>";
+		};
+		1F38FE62240CF98100CADE34 /* AES256TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F38FE63240CF98100CADE34 /* AES256TestTests.swift */,
+				1F38FE65240CF98100CADE34 /* Info.plist */,
+			);
+			path = AES256TestTests;
+			sourceTree = "<group>";
+		};
+		1F38FE6D240CF98100CADE34 /* AES256TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F38FE6E240CF98100CADE34 /* AES256TestUITests.swift */,
+				1F38FE70240CF98100CADE34 /* Info.plist */,
+			);
+			path = AES256TestUITests;
+			sourceTree = "<group>";
+		};
+		6D052CF29E2B3EE4B5CD0434 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AF412810F6419AF73F07894 /* Pods-AES256Test.debug.xcconfig */,
+				DC30862FFDF4AE08EB4844C8 /* Pods-AES256Test.release.xcconfig */,
+				E548EBC6E8544313770B8380 /* Pods-AES256Test-AES256TestUITests.debug.xcconfig */,
+				D6EDF4B419BDDEFE1F0395A8 /* Pods-AES256Test-AES256TestUITests.release.xcconfig */,
+				261883D6042A21F5A141ECA0 /* Pods-AES256TestTests.debug.xcconfig */,
+				40B6A2BB21F8BE4F3DE971EB /* Pods-AES256TestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F254165BC67E9E7EFCB38F71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AD49256049B3C37CF252D01 /* Pods_AES256Test.framework */,
+				B87694B723D518C07885498A /* Pods_AES256Test_AES256TestUITests.framework */,
+				6D514438C09BA9D332C45FCE /* Pods_AES256TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F38FE48240CF97E00CADE34 /* AES256Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F38FE73240CF98100CADE34 /* Build configuration list for PBXNativeTarget "AES256Test" */;
+			buildPhases = (
+				17C0F5C738C92E181EB329D5 /* [CP] Check Pods Manifest.lock */,
+				1F38FE45240CF97E00CADE34 /* Sources */,
+				1F38FE46240CF97E00CADE34 /* Frameworks */,
+				1F38FE47240CF97E00CADE34 /* Resources */,
+				DC529DAD82B2546AB9DEC132 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AES256Test;
+			productName = AES256Test;
+			productReference = 1F38FE49240CF97E00CADE34 /* AES256Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F38FE5E240CF98100CADE34 /* AES256TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F38FE76240CF98100CADE34 /* Build configuration list for PBXNativeTarget "AES256TestTests" */;
+			buildPhases = (
+				986E1E797A076DB669B0D588 /* [CP] Check Pods Manifest.lock */,
+				1F38FE5B240CF98100CADE34 /* Sources */,
+				1F38FE5C240CF98100CADE34 /* Frameworks */,
+				1F38FE5D240CF98100CADE34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F38FE61240CF98100CADE34 /* PBXTargetDependency */,
+			);
+			name = AES256TestTests;
+			productName = AES256TestTests;
+			productReference = 1F38FE5F240CF98100CADE34 /* AES256TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F38FE69240CF98100CADE34 /* AES256TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F38FE79240CF98100CADE34 /* Build configuration list for PBXNativeTarget "AES256TestUITests" */;
+			buildPhases = (
+				EA2008EA17FEC7CAE4DB2A41 /* [CP] Check Pods Manifest.lock */,
+				1F38FE66240CF98100CADE34 /* Sources */,
+				1F38FE67240CF98100CADE34 /* Frameworks */,
+				1F38FE68240CF98100CADE34 /* Resources */,
+				4DEA94180538CC94135823CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F38FE6C240CF98100CADE34 /* PBXTargetDependency */,
+			);
+			name = AES256TestUITests;
+			productName = AES256TestUITests;
+			productReference = 1F38FE6A240CF98100CADE34 /* AES256TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F38FE41240CF97D00CADE34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jeonggyu Park";
+				TargetAttributes = {
+					1F38FE48240CF97E00CADE34 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1F38FE5E240CF98100CADE34 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1F38FE48240CF97E00CADE34;
+					};
+					1F38FE69240CF98100CADE34 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1F38FE48240CF97E00CADE34;
+					};
+				};
+			};
+			buildConfigurationList = 1F38FE44240CF97E00CADE34 /* Build configuration list for PBXProject "AES256Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F38FE40240CF97D00CADE34;
+			productRefGroup = 1F38FE4A240CF97E00CADE34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F38FE48240CF97E00CADE34 /* AES256Test */,
+				1F38FE5E240CF98100CADE34 /* AES256TestTests */,
+				1F38FE69240CF98100CADE34 /* AES256TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F38FE47240CF97E00CADE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F38FE59240CF98000CADE34 /* LaunchScreen.storyboard in Resources */,
+				1F38FE56240CF98000CADE34 /* Assets.xcassets in Resources */,
+				1F38FE54240CF97E00CADE34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F38FE5D240CF98100CADE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F38FE68240CF98100CADE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17C0F5C738C92E181EB329D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AES256Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DEA94180538CC94135823CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AES256Test-AES256TestUITests/Pods-AES256Test-AES256TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AES256Test-AES256TestUITests/Pods-AES256Test-AES256TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AES256Test-AES256TestUITests/Pods-AES256Test-AES256TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		986E1E797A076DB669B0D588 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AES256TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC529DAD82B2546AB9DEC132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AES256Test/Pods-AES256Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AES256Test/Pods-AES256Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AES256Test/Pods-AES256Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA2008EA17FEC7CAE4DB2A41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AES256Test-AES256TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F38FE45240CF97E00CADE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F38FE51240CF97E00CADE34 /* ViewController.swift in Sources */,
+				1F38FE4D240CF97E00CADE34 /* AppDelegate.swift in Sources */,
+				1F38FE4F240CF97E00CADE34 /* SceneDelegate.swift in Sources */,
+				1F38FE7D240CF9C400CADE34 /* AES256Manager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F38FE5B240CF98100CADE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F38FE64240CF98100CADE34 /* AES256TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F38FE66240CF98100CADE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F38FE6F240CF98100CADE34 /* AES256TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F38FE61240CF98100CADE34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F38FE48240CF97E00CADE34 /* AES256Test */;
+			targetProxy = 1F38FE60240CF98100CADE34 /* PBXContainerItemProxy */;
+		};
+		1F38FE6C240CF98100CADE34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F38FE48240CF97E00CADE34 /* AES256Test */;
+			targetProxy = 1F38FE6B240CF98100CADE34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F38FE52240CF97E00CADE34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F38FE53240CF97E00CADE34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F38FE57240CF98000CADE34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F38FE58240CF98000CADE34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F38FE71240CF98100CADE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F38FE72240CF98100CADE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F38FE74240CF98100CADE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF412810F6419AF73F07894 /* Pods-AES256Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BAZME32E6Z;
+				INFOPLIST_FILE = AES256Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Plus-apps.AES256Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F38FE75240CF98100CADE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC30862FFDF4AE08EB4844C8 /* Pods-AES256Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BAZME32E6Z;
+				INFOPLIST_FILE = AES256Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Plus-apps.AES256Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F38FE77240CF98100CADE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261883D6042A21F5A141ECA0 /* Pods-AES256TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BAZME32E6Z;
+				INFOPLIST_FILE = AES256TestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Plus-apps.AES256TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AES256Test.app/AES256Test";
+			};
+			name = Debug;
+		};
+		1F38FE78240CF98100CADE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B6A2BB21F8BE4F3DE971EB /* Pods-AES256TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BAZME32E6Z;
+				INFOPLIST_FILE = AES256TestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Plus-apps.AES256TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AES256Test.app/AES256Test";
+			};
+			name = Release;
+		};
+		1F38FE7A240CF98100CADE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E548EBC6E8544313770B8380 /* Pods-AES256Test-AES256TestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BAZME32E6Z;
+				INFOPLIST_FILE = AES256TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Plus-apps.AES256TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AES256Test;
+			};
+			name = Debug;
+		};
+		1F38FE7B240CF98100CADE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6EDF4B419BDDEFE1F0395A8 /* Pods-AES256Test-AES256TestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BAZME32E6Z;
+				INFOPLIST_FILE = AES256TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Plus-apps.AES256TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AES256Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F38FE44240CF97E00CADE34 /* Build configuration list for PBXProject "AES256Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F38FE71240CF98100CADE34 /* Debug */,
+				1F38FE72240CF98100CADE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F38FE73240CF98100CADE34 /* Build configuration list for PBXNativeTarget "AES256Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F38FE74240CF98100CADE34 /* Debug */,
+				1F38FE75240CF98100CADE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F38FE76240CF98100CADE34 /* Build configuration list for PBXNativeTarget "AES256TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F38FE77240CF98100CADE34 /* Debug */,
+				1F38FE78240CF98100CADE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F38FE79240CF98100CADE34 /* Build configuration list for PBXNativeTarget "AES256TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F38FE7A240CF98100CADE34 /* Debug */,
+				1F38FE7B240CF98100CADE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F38FE41240CF97D00CADE34 /* Project object */;
+}
